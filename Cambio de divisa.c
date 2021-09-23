@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main ()
 {
-	//Bloque de variables
+	//Cambio de divisas basico
 	int divisa;
 	float moneda, bolivar, canadiense, libra, pesoCol, pesoMex, yen, yuan, euro, realbr, pesoArg;
 	
 	printf("Introduzca su cantidad\n: ");
 	scanf("%f", &moneda);
 	
-	//Bloque de operaciones
+	//Ecuaciones de cambio
 	bolivar=moneda/32738.48;
 	canadiense=moneda/1.31;
 	libra=moneda/0.78;
