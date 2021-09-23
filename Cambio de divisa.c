@@ -5,7 +5,7 @@ int main ()
 	int divisa;
 	float moneda, bolivar, canadiense, libra, pesoCol, pesoMex, yen, yuan, euro, realbr, pesoArg;
 	
-	printf("\nIntroduzca su cantidad: ");
+	printf("Introduzca su cantidad\n: ");
 	scanf("%f", &moneda);
 	
 	//Bloque de operaciones
@@ -20,7 +20,7 @@ int main ()
 	euro=moneda/0.88;
 	realbr=moneda/5.06;
 	
-	printf("\nIntroduzca el tipo de moneda con la que desea hacer el cambio \nBolivar marque -1-\nDolar canadiense marque -2-\nLibra marque -3-\nPeso colombiano marque -4-\nPeso mexicano marque -5-\nPeso argentino marque -6-\nYen marque -7-\nYuan marque -8-\nEuro marque -9-\nReal brasileño marque -10-\n: ");
+	printf("Introduzca el tipo de moneda con la que desea hacer el cambio \nBolivar marque -1-\nDolar canadiense marque -2-\nLibra marque -3-\nPeso colombiano marque -4-\nPeso mexicano marque -5-\nPeso argentino marque -6-\nYen marque -7-\nYuan marque -8-\nEuro marque -9-\nReal brasileÃ±o marque -10-\n: ");
 	scanf("%d", &divisa);
 	
 	//Bloque de eleccion
@@ -55,7 +55,7 @@ int main ()
 		printf("\nSu cantidad es -> %1.2f", realbr);
 	}
 	else{
-		printf("\nLa moneda que ha seleccionado no esta dentro de nuestros servicios de cambio");
+		printf("\nLa moneda que ha seleccionado no esta dentro de nuestros servicios del cambio");
 	}
 	return 0;
 }
