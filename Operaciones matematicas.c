@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main ()
 {
-	//Bloque de variables
+	//Operaciones aritmeticas basicas
 	int operacion;
 	float num1, num2, suma1, resta1, multiplicacion1, division1;
 	
@@ -16,7 +16,7 @@ int main ()
 	multiplicacion1= (num1)*(num2);
 	division1= num1/num2;
 	
-	//Bloque de eleccion de la operacion
+	//Eleccion de la operacion
 	printf("\nEscriba que operacion desea realizar Suma = 1, Resta = 2, Multiplicacion = 3 o Division = 4 -> ");
 	scanf("%d", &operacion);
 	if (operacion==1){
