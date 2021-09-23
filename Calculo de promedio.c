@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main ()
 {	
-	//Bloque declaracion de variables
+	//Calculo de promedio basico
+	
 	float cal1, cal2, cal3,cal4, cal5, fin;
 	int cont = 1;
+	
 	//Bloque de instrucciones
-
 	printf("\nIntroduzca la primera calificacion %d:", cont);
 	scanf("%f",&cal1);
 	cont = cont+1;
