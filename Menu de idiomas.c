@@ -7,10 +7,10 @@ int main ()
 	printf("Bienvenido");
 	printf("/nSeleccione idioma/Choose lenguage\nSpanish = A --- English = B\n: ");
 	scanf("%s",&idiom);
-	if(idiom[0]=='a' && idiom[0]=='A'){
+	if(idiom[0]=='a' || idiom[0]=='A'){
 	//Contenido en español
 	}
-	else if(idiom[0]=='b' && idiom[0]=='B'){
+	else if(idiom[0]=='b' || idiom[0]=='B'){
 	//English content
 	}
 	else{
