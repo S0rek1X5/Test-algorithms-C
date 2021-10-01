@@ -1,2 +1,2 @@
 # Algoritmos-de-prueba
-Algoritmos que he realizado como practica de lenguaje C.
+Basic algorithms in c language.
